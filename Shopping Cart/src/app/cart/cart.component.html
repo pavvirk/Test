@@ -1,0 +1,19 @@
+<form [formGroup]= "form" (ngSubmit)="onSubmit(form.value)">
+  <!--<div>
+    <div style="width: 100px; background-color: aqua">
+      {{productName}}
+    </div> <br>
+    <div>
+      <img width="50" height="100" src="{{productImage}}"/>
+    </div>
+  </div>-->
+  <br>
+  <button  (click)="onClickMeDec(quantity.value)">-</button>
+  <input type ="text" name="quantity" formControlName="quantity" #quantity onchange={{onClickMeDec(quantity.value)}>
+  <!-- <button name="increaseButton"  (click)="onClickMeDec(quantity.value)">+</button> -->
+  <br>
+  <button type="submit" [disabled]="!form.valid" value="submit">submit</button>
+
+  
+  
+</form>

@@ -1,0 +1,17 @@
+[
+  {
+    "productId": "1",
+    "productName": "RedMe Note 7",
+    "imageUrl": "./assets/images/mi-redmi-note-7.jpeg"
+  },
+  {
+    "productId": "2",
+    "productName": "Samsung Galaxy A10",
+    "imageUrl": "./assets/images/samsung-galaxy-a10.jpeg"
+  },
+  {
+    "productId": "3",
+    "productName": "Oppo A37f",
+    "imageUrl": "./assets/images/oppo-a37f.jpeg"
+  }
+]
